@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kbfs_upload"
+version = "0.1.0"
+description = "An API for uploading files/notes to a KBFS folder"
+authors = ["Dakota Brown <dakota.kae.brown@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+Flask = "^2.0.1"
+python-dotenv = "^0.19.0"
+pykeybase = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.8b0"
+flake8 = "^3.9.2"
+pre-commit = "^2.14.1"
+pytest-cov = "^2.12.1"
+
+[tool.poetry.scripts]
+kbfsu = 'kbfs_upload:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
