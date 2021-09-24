@@ -45,3 +45,7 @@ This is all the reference needed to build your own front-end for this api.
 ## Development/Contribution
 
 As stated before, Poetry is used to manage the project. If there are any improvements/changes to be made, feel free to submit a PR.
+
+## Support
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dakotakae)
