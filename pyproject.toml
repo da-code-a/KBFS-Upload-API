@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kbfs_upload"
-version = "0.1.0"
+version = "0.1.1"
 description = "An API for uploading files/notes to a KBFS folder"
 authors = ["Dakota Brown <dakota.kae.brown@gmail.com>"]
 readme = "README.md"
