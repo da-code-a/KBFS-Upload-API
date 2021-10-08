@@ -3,6 +3,11 @@ name = "kbfs_upload"
 version = "0.1.0"
 description = "An API for uploading files/notes to a KBFS folder"
 authors = ["Dakota Brown <dakota.kae.brown@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/da-code-a/KBFS-Upload-API"
+repository = "https://github.com/da-code-a/KBFS-Upload-API"
+keywords = ["keybase", "upload", "docker", "api"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
